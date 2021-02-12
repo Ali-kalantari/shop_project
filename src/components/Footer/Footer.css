@@ -1,0 +1,106 @@
+*{
+    margin :0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing:border-box;
+}
+
+#footer {
+    position: relative;
+    top: 0px;
+    height: 290px;
+    background-color: white;
+    color: gray;
+    width: 100%;
+    direction : rtl; 
+    
+}
+
+.InnerSection {
+    float: right;
+    margin: 0px 32px;
+    width: 20%;
+    padding-top: 12px;
+}
+
+.InnerHeading {
+    font-weight: 500;
+    color: gray;
+    text-align: left;
+}
+
+ol {
+    list-style: none;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.SocialIcon {
+    height: 28px;
+    border-radius: 7px;
+}
+.vl{
+    border-left: 1px solid gray;
+    height: 210px;
+    margin-top: -225px;
+  }
+  .vl1{
+      border-left: 1px solid gray;
+      height: 210px;
+      margin-top: -254px;
+      margin-left: -15px;  }
+
+#IconList {
+    display: flex;
+    padding-top: 20px;
+}
+.new1{
+    border-top: 1px solid gray;
+}
+#IconList li {
+    margin: 0 18px;
+} 
+.Credits {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+.InnerSection h2{
+    text-align: right;
+}
+.InnerSection p {
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.InnerSection ol{
+    text-align: right;
+}
+.quic-item{
+    color: gray;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+.quic-item:hover{
+    color: tomato;
+    text-decoration: none;
+    
+
+}
+.blog-item{
+    color: gray;
+    text-decoration: none;
+    font-size: 25px;
+}
+.blog-item:hover{
+    color: tomato;
+    text-decoration: none;
+
+}
+.hh2{
+    font-size: 27px;
+}

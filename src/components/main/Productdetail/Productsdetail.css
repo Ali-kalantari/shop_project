@@ -1,0 +1,88 @@
+.shop-detail-box-main{
+    padding: 70px 0px;
+}
+.single-product-details h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+    border-bottom: 1px solid black;
+    float: right;
+}
+.single-product-details del{
+    margin-left: 1px;
+    margin-right: 70px;
+    color: brown;
+}
+
+.single-product-details h5 del{
+    font-size: 19px;
+    color: #666;
+}
+.single-product-details h5{
+    color: black;
+    font-weight: bold;
+}
+
+
+.single-product-details h4{
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 20px;
+    float: right;
+    display: inline;
+}
+.single-product-details p{
+    font-size: 19px;
+     margin-bottom: 60px;
+     text-align: right;
+     padding: 54px;
+}
+.price-box-bar{
+    margin-bottom: 30px;
+}
+.price-box-bar button{
+    padding: 10px 20px;
+     font-weight: 700;
+     color: #ffffff;
+     border: none;
+}
+.add-comb{
+    float: left;
+
+}
+.share-bar{
+    float: right;
+}
+.add-to-cart{
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px #999;
+  
+}
+.add-to-favorite{
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #aa4d8e;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px #999;
+    width: 135px;
+}
+.add-to-share{
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #4c9ab9;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px #999;
+    width: 85px;
+}

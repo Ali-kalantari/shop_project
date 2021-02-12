@@ -1,0 +1,122 @@
+.card{
+  width: 150px !important;
+  height: 226px !important;
+  overflow: hidden;
+  border: 1px black solid !important;
+  
+}
+.imgcard{
+  width: 100%;
+  height: 160px;
+}
+.image{
+  height: 150px;
+}
+.productdetails{
+  width: 100%;
+  height: 64px;
+  border: 1px solid black;
+}
+.productname{
+  width: 100%;
+  text-align: center;
+  height: 29px;
+
+}
+.productprice{
+  width: 100%;
+  height: 34px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+.productprice button{
+  float: right;
+  height: 30px;
+  margin-top: 1px;
+}
+/* 
+ */
+ /* 
+  */
+  /* slider product styles  */
+  /* => */
+  /* || */
+.product-slider{
+  width: 280px;
+  height: 350px;
+  margin: 50px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.c-box-product{
+  width: 90%;
+  height: 95%;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 5px;
+
+}
+.image-poduct{
+  width: 85%;
+  height: 70%;
+  text-align: center;
+  margin-left: 14px;
+  margin-top: 5px;
+}
+.product-title{
+  text-align: right;
+  width: 98%;
+  height: 15%;
+}
+.product-title-link{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  
+}
+.product-title-link:hover{
+  text-decoration: none;
+  color: black;
+
+}
+.product-price{
+  width: 98%;
+  height: 15%;
+
+}
+
+.price-item span{
+  float: left;
+  color: black;
+  margin-right: 6px;
+}
+.price-item-value{
+  margin-left: 4px;
+  font-weight: 900;
+}
+
+.count-product{
+  width: 100%;
+  height: 40px;
+  background-color: blue;
+  position: absolute;
+  margin-top: 50px;
+}
+
+.counter-product{
+  color:black;
+  margin-right: 38px;
+  font-size: 25px;
+
+}
+.btn-plus{
+  background-color: white !important;
+  float: right;
+  margin-top: 3px;
+}
+.btn-nega{
+  background-color: white !important;
+  margin-top: 3px;
+  width: 27px;
+
+}

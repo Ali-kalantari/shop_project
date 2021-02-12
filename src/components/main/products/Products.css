@@ -1,0 +1,29 @@
+.products-list{
+  display: block;
+  list-style-type: none;
+  width: 100%;
+  float: left;
+}
+.box-header{
+  height: 40px;
+  color: black;
+  margin-bottom: 20px;
+}
+.box-header h2{
+  font-weight: 900;
+  font-size: 35px;
+}
+.product-item{
+  display: inline-block;
+  position: relative;
+  padding-right: 50px;
+  margin-left: 16px;
+  margin-top: 5px;
+}
+.head{
+  float: right;
+  font-weight: 700;
+}
+.custom{
+  margin-top: 20px !important;
+}
