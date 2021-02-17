@@ -7,10 +7,11 @@ import logo from './../../../images/sabzi.jpg'
 
 const Shoppingcart = (props) => {
 
-    const style={display : 'none' , transform: 'translateX(0px)'}
+    const style={display : 'none'}
     if(props.ctr === true) {
-         style.display = 'block'
-
+        style.display = 'block'
+        style.transition = 'left 10s ease-in-out '
+        style.left = '0px'
     }
 
     const [user_cart,setuser_cart] = useState([]);

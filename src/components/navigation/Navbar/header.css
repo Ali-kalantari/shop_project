@@ -17,17 +17,19 @@ body {
     height: 100vh;
 }
 .main-header{
-    position: sticky
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
 }
 .navbar{
-    position: sticky;
+    outline: none;
 }
 
 .nav-container {
     width: 100%;
     height: 125px;
     background-color: white;
-    position: sticky;
 }
 .navbar {
     display: grid;
