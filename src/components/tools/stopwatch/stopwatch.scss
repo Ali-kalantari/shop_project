@@ -1,0 +1,61 @@
+$color-one : skyblue;
+$color-two : rgb(248, 174, 37);
+
+
+.body-stop{
+    background-color:$color-two ;
+    width: 100%;
+    height: 100%;
+}
+.watch-box{
+    background-color: $color-one;
+    padding: 10px;
+    margin: 10px;
+    width: 45px;
+    height: 45px;
+    box-shadow: 2.5px 2px 2px black;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.main-section-stop{
+    width: 30%;
+    margin: auto;
+    height: 200px;
+}
+
+.stopwatch{
+    width: 90%;
+    margin: auto;
+    height: 100px;
+}
+.wrap-stop{
+    width: 100%;
+    height: 95px;
+    margin-left: -52px;
+}
+
+.btn-custom{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    color: #fff;
+    border: solid 1px #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.8em;
+    padding: 18px 10px;
+    width: 150px;
+    margin: 10px;
+    outline: none;
+}
+
+.btn-customs{
+    @extend .btn-custom;
+    margin-left: 110px;
+    
+}
+.stop-h1{
+    background-color: $color-two;
+}

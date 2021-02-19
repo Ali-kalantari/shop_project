@@ -1,0 +1,74 @@
+
+@mixin button {
+    cursor: pointer;
+    width: 107.5px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;    
+    border-top: 0.5px solid white;
+
+}
+
+
+h1{
+    text-align: center;
+    background-color: yellow;
+}
+.wrapper-cal{
+    display: grid;
+    grid-template-rows: 20% ;
+    width: 430px;
+    background-color: #888;
+    margin: auto;
+    align-items: center;
+
+}
+
+.wrapper-button{
+    height: 400px;
+    width: 430px;
+    color: black;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+.input-cal{
+    width: 430px;
+    height: 100px;
+    border: 1px solid black;
+    color: black;
+    background-color: rgb(163, 161, 161);
+    font-size: 40px;
+    vertical-align: middle;
+    overflow: hidden
+}
+
+.button-cal{
+    @include button;
+
+}
+.button-equal{
+@include button;   
+border-top: 0.5px solid white;
+color: whitesmoke;
+
+}
+.button-op{
+    @include button;
+    border-left: 1px solid white;
+    background-color: yellowgreen;
+}
+.clear-cal{
+    width: 430px;
+    height: 50px;
+    background-color: gray;
+    font-size: 30px;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid black;
+}

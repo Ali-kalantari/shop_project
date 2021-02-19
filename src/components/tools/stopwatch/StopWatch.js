@@ -54,8 +54,9 @@ const resume = ()=>{
 
   return (
     <React.Fragment>
-      <div className="body">
-        <div className="main-section">
+      <div className="body-stop">
+        <h1 className="stop-h1">STOP WATCH</h1>
+        <div className="main-section-stop">
           <div className="clock-holder">
             <div className="stopwatch">
               <Display time={time} resume={resume} stop={stop} reset={reset} start={start} status={status} />
