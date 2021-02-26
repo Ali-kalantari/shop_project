@@ -20,7 +20,7 @@ const Calculator = () => {
 
   return (
     <>
-      <h1>CALCULATOR</h1>
+      <h1 id='h1-cal'>CALCULATOR</h1>
       <div className="wrapper-cal">
         <Input input={input} />
         <Keys_wrapper click={Addtoinput} equal={handleequal} input={input} />

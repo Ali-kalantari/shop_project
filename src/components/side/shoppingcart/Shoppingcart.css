@@ -2,19 +2,24 @@
     position: fixed;
     overflow-y: auto;
     top: 0px;
+    left: 0px;
     width: 280px;
     padding: 25px 15px;
     height: 100%;
-    display: block;
+    display: none;
     background-color: gray;
     z-index: 3;
     /* transition: all 2s ease-in-out; */
     border-radius: 1px;
     border: 1px dashed black;
-   transition: left 1s ease-in-out;
-   left: -280px;
-}
+   transition: all 0.5s ease-in-out;
+    transform: translateX(0px);
 
+}
+.open{
+    transform: translateX(0px);
+    display: block;
+}
 
 
 .closeshoppingcart{

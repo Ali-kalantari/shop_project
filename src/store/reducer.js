@@ -1,6 +1,6 @@
 const initialState = {
     isopen : false,
-    user_orders:[]
+    isback : false
 }
 
 const reducer = (state = initialState , action) =>{
@@ -9,9 +9,14 @@ const reducer = (state = initialState , action) =>{
             return{ isopen : false}           
         case 'open':
             return {isopen : true}
+        case 'openback':
+                return{isback : true}
+        case 'closeback':
+                return{isback : false}
         default :
         return state
     }
+    
     
 
 }
