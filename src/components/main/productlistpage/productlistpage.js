@@ -118,7 +118,7 @@ class Productlistpage extends Component {
   };
 
   componentDidMount() {
-    this.Setdata()
+    this.Setdata();
   }
 
   Setdata = () => {
@@ -129,7 +129,6 @@ class Productlistpage extends Component {
       this.setState({ user_cart: list });
       console.log(user_cart);
     } else {
-
     }
   };
 

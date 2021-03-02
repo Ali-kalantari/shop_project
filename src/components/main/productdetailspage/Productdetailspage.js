@@ -7,14 +7,15 @@ import Productsdetail from '../Productdetail/Productsdetail';
 
 
 
-const Productdetailspage = ({match,history}) => {
+const Productdetailspage = ({match}) => {
+    console.log(match)
     return ( <>
     
     <Shoppingcart />
 
     <Upnav />
     <Navbar />
-    <Productsdetail />
+    <Productsdetail title={match.params.name} newvalue={match.params.price} />
 
     <br />
     <br />

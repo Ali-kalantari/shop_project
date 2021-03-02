@@ -4,7 +4,6 @@ import { connect } from "react-redux";
 import './Badge.css'
 
 
-
 const Badge = (props) => {
     // const style={display:'none'};
     // if(props.isback){

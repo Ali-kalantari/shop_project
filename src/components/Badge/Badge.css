@@ -6,8 +6,8 @@
     cursor:pointer;
     font-family: 'unifont';
     z-index: 50;
-    top: 4.2em;
-    left: 1200px;
+    top: 75%;
+    left: 90%;
   }
   .hex::after {
     content: '⬢';

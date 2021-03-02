@@ -6,6 +6,8 @@
 }
 
 #footer {
+    display: flex;
+    
     position: relative;
     top: 0px;
     height: 290px;
