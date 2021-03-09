@@ -46,3 +46,24 @@
         left: 350px;
       }
   }
+
+  @media(max-width:770px){
+    .hex{
+      font-size: 5em;
+    }
+    .hex::before{
+      font-size: 25px;
+      margin-top: 40px;
+    }
+  }
+
+  @media(max-width:580px){
+    .hex{
+      font-size: 4.5em;
+    }
+    .hex::before{
+      font-size: 20px;
+      margin-top: 35px;
+    }
+
+  }

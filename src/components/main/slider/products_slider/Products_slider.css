@@ -38,3 +38,8 @@
 .bkVSTc{
     display: none !important;
 }
+@media(max-width:700px){
+    .headline{
+        margin-top: 50px;
+    }
+}

@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component} from "react";
 import Upnav from "./../../navigation/Upnav/Upnav";
 import Navbar from "./../../navigation/Navbar/Navbar";
 import Productslist from "./../products/Productslist";
